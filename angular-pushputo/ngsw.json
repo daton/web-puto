@@ -1,0 +1,113 @@
+{
+  "configVersion": 1,
+  "timestamp": 1574532409908,
+  "index": "/web-puto/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/web-puto/5-es2015.5433565af74d558cecd7.js",
+        "/web-puto/5-es5.5433565af74d558cecd7.js",
+        "/web-puto/favicon.ico",
+        "/web-puto/fcm-sw.js",
+        "/web-puto/firebase-messaging-sw.js",
+        "/web-puto/index.html",
+        "/web-puto/main-es2015.adf4668e600cf21c15ab.js",
+        "/web-puto/main-es5.adf4668e600cf21c15ab.js",
+        "/web-puto/manifest.webmanifest",
+        "/web-puto/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "/web-puto/polyfills-es5.6696c533341b95a3d617.js",
+        "/web-puto/runtime-es2015.d212afb1b64c07d7b855.js",
+        "/web-puto/runtime-es5.d212afb1b64c07d7b855.js",
+        "/web-puto/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/web-puto/assets/icons/icon-128x128.png",
+        "/web-puto/assets/icons/icon-144x144.png",
+        "/web-puto/assets/icons/icon-152x152.png",
+        "/web-puto/assets/icons/icon-192x192.png",
+        "/web-puto/assets/icons/icon-384x384.png",
+        "/web-puto/assets/icons/icon-512x512.png",
+        "/web-puto/assets/icons/icon-72x72.png",
+        "/web-puto/assets/icons/icon-96x96.png"
+      ],
+      "patterns": [
+        "https:\\/\\/daton\\.herokuapp\\.com\\/.*"
+      ]
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "de-api",
+      "patterns": [
+        "https:\\/\\/daton\\.herokuapp\\.com\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 86400000,
+      "timeoutMs": 3000,
+      "version": 1
+    },
+    {
+      "name": "from-api",
+      "patterns": [
+        "\\/"
+      ],
+      "strategy": "performance",
+      "maxSize": 10,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "version": 2
+    }
+  ],
+  "hashTable": {
+    "/web-puto/5-es2015.5433565af74d558cecd7.js": "cff8aad12f3a561fd1373c7edb0b486fe8dede54",
+    "/web-puto/5-es5.5433565af74d558cecd7.js": "cff8aad12f3a561fd1373c7edb0b486fe8dede54",
+    "/web-puto/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/web-puto/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/web-puto/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/web-puto/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/web-puto/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/web-puto/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/web-puto/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/web-puto/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/web-puto/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/web-puto/fcm-sw.js": "41785d6c6b4116de83bf0cec6ea9f3b861eeb656",
+    "/web-puto/firebase-messaging-sw.js": "539b914e27d92b43d9031d8b87cc52566fcca4ea",
+    "/web-puto/index.html": "bafe2241c178e280ddff59289519dffd9ac7bf80",
+    "/web-puto/main-es2015.adf4668e600cf21c15ab.js": "8eb8f9cb2b177a7c7246b6519035b1f097cd7a6d",
+    "/web-puto/main-es5.adf4668e600cf21c15ab.js": "3b48158aa0487a3b2a10207660e0df7245fa0a9c",
+    "/web-puto/manifest.webmanifest": "fc444b1548ac313e0683f04ff9d065dc59bc8af4",
+    "/web-puto/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/web-puto/polyfills-es5.6696c533341b95a3d617.js": "45c51483238468881240579c3fdecd19144cff17",
+    "/web-puto/runtime-es2015.d212afb1b64c07d7b855.js": "9de30b387fbb845e3baf34bd815f11a7817c8095",
+    "/web-puto/runtime-es5.d212afb1b64c07d7b855.js": "8725250a8d4be629ab3fc9db9a47d6b19fbee0dd",
+    "/web-puto/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
